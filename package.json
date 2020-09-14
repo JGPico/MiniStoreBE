@@ -1,0 +1,29 @@
+{
+  "name": "MiniStoreBE",
+  "version": "1.0.0",
+  "description": "Backend for Mini Store built with MongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGPico/MiniStoreBE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGPico/MiniStoreBE/issues"
+  },
+  "homepage": "https://github.com/JGPico/MiniStoreBE#readme"
+}
