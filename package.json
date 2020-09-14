@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
     "helmet": "^4.1.1"
   },
   "devDependencies": {
@@ -13,7 +15,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
   },
   "repository": {
     "type": "git",
