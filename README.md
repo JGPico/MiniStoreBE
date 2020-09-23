@@ -1,2 +1,3 @@
 # MiniStoreBE
-Backend for Mini Store built with MongoDB
+Backend for Mini Store built with Postgres
+
